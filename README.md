@@ -23,7 +23,7 @@ To deploy an Infiniband enabled compute cluster with a Lustre File Server attach
 
 2. Open the [cloud shell](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/cloud-shell/quickstart.md) from the Azure portal by clicking the ![alt-text](images/cs-button.png) button on the top navigation.
 
-3. Clone the repository, `git clone https://github.com/tanewill/azhpc_lustre`
+3. Clone the repository, `git clone https://github.com/edwardsp/azhpc_lustre`
 
 4. Change directory to azhpc_lustre `cd azhpc_lustre`
 
@@ -138,13 +138,13 @@ Note- Before setup Lustre FS make sure you have service principal (id, secrete a
 
 * Deploy the Lustre MDS/MGS
 
-  [![Click to deploy template on Azure](/images/deploybutton.png "Click to deploy template on Azure")](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftanewill%2Fazhpc_lustre%2Fmaster%2Ftemplates%2Flustre-master.json) 
+  [![Click to deploy template on Azure](/images/deploybutton.png "Click to deploy template on Azure")](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fedwardsp%2Fazhpc_lustre%2Fmaster%2Ftemplates%2Flustre-master.json) 
 
 * Deploy the Lustre OSS
 
-  [![Click to deploy template on Azure](/images/deploybutton.png "Click to deploy template on Azure")](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftanewill%2Fazhpc_lustre%2Fmaster%2Ftemplates%2Flustre-server.json)
+  [![Click to deploy template on Azure](/images/deploybutton.png "Click to deploy template on Azure")](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fedwardsp%2Fazhpc_lustre%2Fmaster%2Ftemplates%2Flustre-server.json)
 
 * Deploy the Lustre Clients
 
-  [![Click to deploy template on Azure](/images/deploybutton.png "Click to deploy template on Azure")](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftanewill%2Fazhpc_lustre%2Fmaster%2Ftemplates%2Flustre-client.json)
+  [![Click to deploy template on Azure](/images/deploybutton.png "Click to deploy template on Azure")](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fedwardsp%2Fazhpc_lustre%2Fmaster%2Ftemplates%2Flustre-client.json)
 
